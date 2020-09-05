@@ -8,6 +8,9 @@ html {
   font-size: 62.5%;
   background-color: #fffbf7;
 }
+body {
+  margin: 0;
+}
 main {
   text-align: center;
   margin-top: 20rem;
@@ -31,6 +34,72 @@ h4 {
 p {
   font-family: s;
 }
+
+button {
+  margin-left: -10px;
+  height: 50px;
+  border-radius: 8px;
+  width: 14rem;
+  background-color: #025157;
+  border-style: none;
+  color: #ffffff;
+  padding: 6px 20px;
+}
+
+/* Header */
+.site-header {
+  margin: 40px 20px 0 20px;
+  font-size: 0;
+  height: 45px;
+  font-family: sans-serif;
+}
+.navbar li {
+  display: inline;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.site-header > * {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+}
+.logo {
+  width: 15%;
+}
+.logo img {
+  height: 100%;
+}
+.navbar {
+  width: 60%;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+}
+.actions {
+  width: 25%;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.actions > * {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.actions a {
+  color: #67b54b;
+}
+
+.actions button {
+  background-color: #67b54b;
+  padding: 12px 14px 12px 14px;
+  border: 0;
+  border-radius: 5px;
+}
+/* Main */
 main p {
   margin-top: 2rem;
   font-size: 2rem;
@@ -50,15 +119,8 @@ input {
   padding: 6px 20px;
 }
 
-button {
-  margin-left: -10px;
-  height: 50px;
+main button {
   border-radius: 0 8px 8px 0;
-  width: 14rem;
-  background-color: #025157;
-  border-style: none;
-  color: #ffffff;
-  padding: 6px 20px;
 }
 
 .image-container {
